@@ -63,4 +63,4 @@ fiat_u64_backend = ["curve25519-dalek/fiat_u64_backend"]
 fiat_u32_backend = ["curve25519-dalek/fiat_u32_backend"]
 
 [patch.crates-io]
-curve25519-dalek = { git = "https://github.com/FindoraNetwork/curve25519-dalek", branch = "develop-refactoring" }
+curve25519-dalek = { git = "https://github.com/FindoraNetwork/curve25519-dalek" }
