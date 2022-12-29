@@ -1,7 +1,7 @@
 use curve25519_dalek::constants::ED25519_BASEPOINT_TABLE;
 use curve25519_dalek::scalar::Scalar;
 
-use x25519_dalek::*;
+use noah_x25519_dalek::*;
 
 fn clamp_scalar(mut scalar: [u8; 32]) -> Scalar {
     scalar[0] &= 248;

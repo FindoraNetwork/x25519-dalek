@@ -294,9 +294,9 @@ fn clamp_scalar(mut scalar: [u8; 32]) -> Scalar {
 /// use rand_core::OsRng;
 /// use rand_core::RngCore;
 ///
-/// use x25519_dalek::x25519;
-/// use x25519_dalek::StaticSecret;
-/// use x25519_dalek::PublicKey;
+/// use noah_x25519_dalek::x25519;
+/// use noah_x25519_dalek::StaticSecret;
+/// use noah_x25519_dalek::PublicKey;
 ///
 /// // Generate Alice's key pair.
 /// let alice_secret = StaticSecret::new(&mut OsRng);
